@@ -1,6 +1,6 @@
 #include "Truck.h"
 
-Truck::Truck(): towingCapacity(0) {}
+Truck::Truck(const string& manufacturer, int year, int towingCapacity): Vehicle(manufacturer, year), towingCapacity(towingCapacity) {}
 
 int Truck::getTowingCapacity() const {
     return towingCapacity;

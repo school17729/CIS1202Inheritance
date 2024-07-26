@@ -8,7 +8,7 @@ private:
     string manufacturer;
     int year;
 public:
-    Vehicle();
+    Vehicle(const string&, int);
 
     string getManufacturer() const;
 

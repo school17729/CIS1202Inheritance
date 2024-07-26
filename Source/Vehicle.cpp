@@ -1,6 +1,6 @@
 #include "Vehicle.h"
 
-Vehicle::Vehicle(): manufacturer(""), year(0) {}
+Vehicle::Vehicle(const string& manufacturer, int year): manufacturer(manufacturer), year(year) {}
 
 string Vehicle::getManufacturer() const {
     return manufacturer;

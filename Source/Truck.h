@@ -4,7 +4,7 @@ class Truck : public Vehicle {
 private:
     int towingCapacity;
 public:
-    Truck();
+    Truck(const string&, int, int);
 
     int getTowingCapacity() const;
 

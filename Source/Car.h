@@ -4,7 +4,7 @@ class Car : public Vehicle {
 private:
     int doors;
 public:
-    Car();
+    Car(const string&, int, int);
 
     int getDoors() const;
 

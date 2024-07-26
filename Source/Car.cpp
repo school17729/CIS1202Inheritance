@@ -1,6 +1,6 @@
 #include "Car.h"
 
-Car::Car(): doors(0) {}
+Car::Car(const string& manufacturer, int year, int doors): Vehicle(manufacturer, year) , doors(doors) {}
 
 int Car::getDoors() const {
     return doors;
