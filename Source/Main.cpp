@@ -14,6 +14,7 @@ int main() {
     
     cout << "Vehicle Program" << endl << endl;
 
+    // Asks and displays vehicle information
     cout << "Vehicle:" << endl;
     getProperty("Enter manufacturer of vehicle.", manufacturer);
     getProperty("Enter year built of vehicle.", year);
@@ -21,6 +22,7 @@ int main() {
     vehicle.displayInfo();
     cout << endl;
 
+    // Asks and displays car information
     cout << "Car:" << endl;
     getProperty("Enter manufacturer of vehicle.", manufacturer);
     getProperty("Enter year built of vehicle.", year);
@@ -29,6 +31,7 @@ int main() {
     car.displayInfo();
     cout << endl;
 
+    // Asks and displays truck information
     cout << "Truck:" << endl;
     getProperty("Enter manufacturer of vehicle.", manufacturer);
     getProperty("Enter year built of vehicle.", year);
