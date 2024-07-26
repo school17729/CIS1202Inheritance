@@ -9,3 +9,8 @@ int Truck::getTowingCapacity() const {
 void Truck::setTowingCapacity(int towingCapacity) {
     this->towingCapacity = towingCapacity;
 }
+
+void Truck::displayInfo() const {
+    Vehicle::displayInfo();
+    cout << "Towing Capacity: " << towingCapacity << endl;
+}

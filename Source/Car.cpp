@@ -9,3 +9,8 @@ int Car::getDoors() const {
 void Car::setDoors(int doors) {
     this->doors = doors;
 }
+
+void Car::displayInfo() const {
+    Vehicle::displayInfo();
+    cout << "Doors: " << doors << endl;
+}

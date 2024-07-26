@@ -1,3 +1,5 @@
+#pragma once
+
 #include "Vehicle.h"
 
 class Truck : public Vehicle {
@@ -9,4 +11,6 @@ public:
     int getTowingCapacity() const;
 
     void setTowingCapacity(int);
+
+    void displayInfo() const;
 };

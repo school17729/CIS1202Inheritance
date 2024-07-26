@@ -1,3 +1,5 @@
+#pragma once
+
 #include <iostream>
 #include <string>
 
@@ -19,5 +21,4 @@ public:
     void setYear(int);
 
     void displayInfo() const;
-
 };

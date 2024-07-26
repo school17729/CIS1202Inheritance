@@ -1,3 +1,5 @@
+#pragma once
+
 #include "Vehicle.h"
 
 class Car : public Vehicle {
@@ -9,4 +11,6 @@ public:
     int getDoors() const;
 
     void setDoors(int);
+
+    void displayInfo() const;
 };
